@@ -20,7 +20,6 @@ function Cifrado() {
           const decryptedData = sjcl.decrypt('password',tem);
           console.log("Datos descifrados:", decryptedData);
           setResult(decryptedData);
-          // Puedes mostrar o utilizar los datos descifrados según sea necesario
         } catch (error) {
           console.error("Error al descifrar los datos:", error);
         }
