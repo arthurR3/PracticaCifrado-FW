@@ -36,7 +36,7 @@ function Cifrado() {
                         <input
                             id="message"
                             type="text"
-                            placeholder="Texto a cifrar"
+                            placeholder="Texto"
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                         />
@@ -72,7 +72,7 @@ function Cifrado() {
                             <input
                                 id="result"
                                 type="text"
-                                placeholder="Texto cifrado"
+                                placeholder="Salida"
                                 value={result}
                                 onChange={(e) => setResult(e.target.value)}
                             />
